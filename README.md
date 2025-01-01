@@ -554,3 +554,117 @@
         .download-btn:hover {
             background-color: green;  /* Green on hover */
             color: white;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Now Button with QR Content</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;  /* Black background */
+            color: white;  /* White text color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+            flex-direction: column;
+        }
+
+        /* Top Border */
+        .top-border {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: black;  /* Black background */
+            border-top: 5px solid black;  /* Black top border */
+            padding: 10px 0;
+            text-align: right;
+            z-index: 10;
+        }
+
+        /* Download Now Button */
+        .download-btn {
+            padding: 8px 20px;
+            background-color: #0095f6;  /* Blue background */
+            color: black;
+            text-decoration: none;
+            border-radius: 50px;  /* Oval shape */
+            font-size: 12px;
+            text-align: center;
+            margin-right: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: green;  /* Green on hover */
+            color: white;
+        }
+
+        /* Positioning QR Code Content more left */
+        .qr-content {
+            position: absolute;
+            left: 5%;  /* Moved further left */
+            top: 80%;   /* Increased top value to move it further down */
+            transform: translateY(-50%);  /* Keep it vertically centered */
+            text-align: left;
+            padding-left: 20px;  /* Added padding for better alignment */
+        }
+
+        .login-with-qr {
+            font-size: 18px;
+            font-weight: bold;
+            color: white;  /* White text */
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        .login-description {
+            font-size: 14px;
+            color: white;  /* White text */
+        }
+
+        /* Bottom Border */
+        .bottom-border {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: black;  /* Black background */
+            border-bottom: 5px solid black;  /* Black bottom border */
+            padding: 10px 0;
+            text-align: center;
+            z-index: 10;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Top Border -->
+    <div class="top-border">
+        <a href="https://www.example.com/download" class="download-btn">Download Now</a>
+    </div>
+
+    <!-- Log in with QR Code Content Positioned more to the left and further down -->
+    <div class="qr-content">
+        <a href="#" class="login-with-qr">Log in with QR Code</a>
+        <div class="login-description">Scan this with the mobile app to log in instantly.</div>
+    </div>
+
+    <!-- Bottom Border -->
+    <div class="bottom-border">
+        <!-- Content here (optional) -->
+    </div>
+
+</body>
+</html>
