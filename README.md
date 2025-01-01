@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login to Instagram</title>
+
     <style>
         /* Global styles */
         body {
             font-family: Arial, sans-serif;
-            background-color: #fafafa;
+            background-color: #00000;
             margin: 0;
             padding: 0;
         }
@@ -92,11 +87,8 @@
 </head>
 <body>
 
-    <div class="container">
-        <!-- Instagram Logo (placeholder image) -->
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png" alt="Instagram Logo" class="logo">
-        
-        <h1>Instagram</h1>
+
+        <h1>Univurse</h1>
         <!-- Login Form -->
         <form action="welcome.html" method="POST" onsubmit="return validateForm()">
             <input type="text" class="input-field" placeholder="Phone number, username, or email" name="username" id="username" required>
