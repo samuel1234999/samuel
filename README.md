@@ -3,7 +3,7 @@
         /* Global styles */
         body {
             font-family: Arial, sans-serif;
-            background-color: #00000;
+            background-color: #black;
             margin: 0;
             padding: 0;
         }
@@ -23,20 +23,6 @@
             margin-bottom: 20px;
             font-weight: normal;
         }
-
-        .logo {
-            display: block;
-            width: 120px;
-            margin: 0 auto 20px;
-        }
-
-        .input-field {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #dbdbdb;
-            border-radius: 5px;
-            font-size: 16px;
         }
 
         .login-btn {
