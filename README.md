@@ -1,179 +1,72 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+title: Your awesome title
+author:
+  name: GitHub User
+  email: your-email@domain.com
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>samuel1234999-eeeez.github.io</title>
-<meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="samuel1234999-eeeez.github.io" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://samuel1234999.github.io/samuel1234999-eeeez.github.io/" />
-<meta property="og:url" content="https://samuel1234999.github.io/samuel1234999-eeeez.github.io/" />
-<meta property="og:site_name" content="samuel1234999-eeeez.github.io" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="samuel1234999-eeeez.github.io" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"samuel1234999-eeeez.github.io","name":"samuel1234999-eeeez.github.io","url":"https://samuel1234999.github.io/samuel1234999-eeeez.github.io/"}</script>
-<!-- End Jekyll SEO tag -->
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >
+  Write an awesome description for your new site here. You can edit this line
+  in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
 
-    <link rel="stylesheet" href="/samuel1234999-eeeez.github.io/assets/css/style.css?v=ec1a707c5016a14668ff5034e3f9de931b8991b9">
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+# Build settings
 
-<!-- Setup Google Analytics -->
+# If you clone the Minima repo and build locally, use this setting.
+theme: minima
 
+# As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
+# If you want to use the latest Minima version on GitHub Pages, use the following setting and 
+# add a line comment on "theme: minima" above.
+#remote_theme: jekyll/minima
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/samuel1234999-eeeez.github.io/favicon.ico" -->
+# Theme-specific settings
 
-<!-- end custom head snippets -->
+# If you want to link only specific pages in your header, use this and add the path to the pages
+# in order as they should show up.
+header_pages:
+  - about.md
 
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      
-      <h1><a href="https://samuel1234999.github.io/samuel1234999-eeeez.github.io/">samuel1234999-eeeez.github.io</a></h1>
-      
+# Set to `true` to show excerpts on the homepage.
+#show_excerpts: false
 
-      <p>&lt;!DOCTYPE html&gt;</p>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login to Instagram</title>
-    <style>
-        /* Global styles */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fafafa;
-            margin: 0;
-            padding: 0;
-        }
+# Minima specific settings, which are only available from Minima 3.0 onward.
+minima:
+  # Minima skin selection.
+  # Available skins are:
+  # classic	           Default, light color scheme.
+  # dark	             Dark variant of the classic skin.
+  # auto	             Adaptive skin based on the default classic and dark skins.
+  # solarized-light	   Light variant of solarized color scheme.
+  # solarized-dark	   Dark variant of solarized color scheme.
+  # solarized	         Adaptive skin for solarized color scheme skins.
+  skin: classic
+  
+  # Minima date format.
+  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
+  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+  #date_format: "%b-%d-%Y"
 
-        .container {
-            width: 350px;
-            margin: 50px auto;
-            background-color: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            text-align: center;
-            font-size: 36px;
-            margin-bottom: 20px;
-            font-weight: normal;
-        }
-
-        .logo {
-            display: block;
-            width: 120px;
-            margin: 0 auto 20px;
-        }
-
-        .input-field {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #dbdbdb;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-
-        .login-btn {
-            width: 100%;
-            padding: 12px;
-            background-color: #3897f0;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-            margin: 10px 0;
-        }
-
-        .login-btn:hover {
-            background-color: #3184d6;
-        }
-
-        .forgot-password {
-            text-align: center;
-            font-size: 14px;
-            margin: 10px 0;
-        }
-
-        .signup-link {
-            text-align: center;
-            font-size: 14px;
-            color: #3897f0;
-        }
-
-        .signup-link a {
-            text-decoration: none;
-            color: inherit;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 400px) {
-            .container {
-                width: 100%;
-                padding: 20px;
-            }
-
-            h1 {
-                font-size: 28px;
-            }
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        <!-- Instagram Logo (placeholder image) -->
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png" alt="Instagram Logo" class="logo" />
-        
-        <h1>Instagram</h1>
-        <!-- Login Form -->
-        <form action="welcome.html" method="POST" onsubmit="return validateForm()">
-            <input type="text" class="input-field" placeholder="Phone number, username, or email" name="username" id="username" required="" />
-            <input type="password" class="input-field" placeholder="Password" name="password" id="password" required="" />
-            <button type="submit" class="login-btn">Log In</button>
-        </form>
-
-        <!-- Forgot Password and Sign Up links -->
-        <div class="forgot-password">
-            <a href="#">Forgot password?</a>
-        </div>
-
-        <div class="signup-link">
-            Don't have an account? <a href="#">Sign up</a>
-        </div>
-    </div>
-
-    <script>
-        function validateForm() {
-            var username = document.getElementById("username").value;
-            var password = document.getElementById("password").value;
-
-            if (username == "" || password == "") {
-                alert("Both username and password are required.");
-                return false; // Prevent form submission
-            }
-            return true; // Allow form submission
-        }
-    </script>
-</body>
-</html>
-
-
-      
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-  </body>
-</html>
+  # Generate social links in footer.
+  #social_links:
+  #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
+  #  - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+  #  - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
+  #  - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
+  #  - { platform: github,         user_url: "https://github.com/jekyll/minima" }
+  #  - { platform: gitlab,         user_url: "https://gitlab.com/jekyll" }
+  #  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+  #  - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
+  #  - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
+  #  - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+  #  - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
+  #  - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
+  #  - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
+  #  - { platform: telegram,       user_url: "https://t.me/jekyll" }
+  #  - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+  #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
+  #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
