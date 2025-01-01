@@ -113,3 +113,4 @@
 
 </body>
 </html>
+Content-Security-Policy: default-src 'self'; script-src 'self' https://trusted-cdn.com; object-src 'none';
