@@ -380,11 +380,6 @@
       font-size: 14px;
       color: white;  /* White text */
   }
-</style>
-<!-- Top Border and Download Button -->
-<div class="top-border">
-  <a href="https://www.example.com/download" class="download-btn">Download Now</a>
-</div>
 
 <!-- Log in with QR Code Content Positioned more to the left -->
 <div class="qr-content">
