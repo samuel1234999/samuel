@@ -483,3 +483,88 @@
   <a href="#" class="login-with-qr">Log in with QR Code</a>
   <div class="login-description">Scan this with the mobile app to log in instantly.</div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Now Button Example</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;  /* Black background */
+            color: white;  /* White text color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+            flex-direction: column;
+        }
+
+        /* Top Border */
+        .top-border {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: black;  /* Black background */
+            border-top: 5px solid black;  /* Black top border */
+            padding: 10px 0;
+            text-align: right;
+            z-index: 10;
+        }
+
+        /* Bottom Border */
+        .bottom-border {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: black;  /* Black background */
+            border-bottom: 5px solid black;  /* Black bottom border */
+            padding: 10px 0;
+            text-align: center;
+            z-index: 10;
+        }
+
+        /* Download Now Button */
+        .download-btn {
+            padding: 8px 20px;
+            background-color: #0095f6;  /* Blue background */
+            color: black;
+            text-decoration: none;
+            border-radius: 50px;  /* Oval shape */
+            font-size: 12px;
+            text-align: center;
+            margin-right: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: green;  /* Green on hover */
+            color: white;
+
+
+
+
+
+
+  
