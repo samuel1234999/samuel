@@ -304,3 +304,402 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Link with Register Hover</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        /* Style for the affiliate link text */
+        .affiliate-link {
+            font-size: 16px;
+        }
+
+        /* Style for the "Need an account?" text */
+        .need-account {
+            color: grey; /* Grey color for "Need an account?" */
+        }
+
+        /* Style for the "Register" text */
+        .register {
+            color: blue; /* Blue color for "Register" */
+            text-decoration: none; /* Remove underline */
+        }
+
+        /* Hover effect for the "Register" text */
+        .register:hover {
+            color: green; /* Green color when hovered */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Affiliate Link Section -->
+    <div class="affiliate-link">
+        <span class="need-account">Need an account? </span>
+        <a href="https://www.example.com/register" class="register">Register</a>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Link with Register Hover</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        /* Style for the login container */
+        .login-container {
+            width: 350px;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Forgot password link styles */
+        .footer {
+            margin-top: 20px;
+        }
+
+        .footer a {
+            font-size: 12px;
+            color: #8e8e8e;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Box for the "Need an account? Register" link */
+        .affiliate-box {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            border: 1px solid #dbdbdb;
+            text-align: center;
+        }
+
+        /* Style for the affiliate link text */
+        .affiliate-link {
+            font-size: 14px;
+        }
+
+        /* Style for the "Need an account?" text */
+        .need-account {
+            color: grey; /* Grey color for "Need an account?" */
+        }
+
+        /* Style for the "Register" text */
+        .register {
+            color: blue; /* Blue color for "Register" */
+            text-decoration: none; /* Remove underline */
+        }
+
+        /* Hover effect for the "Register" text */
+        .register:hover {
+            color: green; /* Green color when hovered */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Login Container -->
+    <div class="login-container">
+        <form action="/submit" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Log in</button>
+        </form>
+
+        <!-- Forgot Password Link -->
+        <div class="footer">
+            <a href="#">Forgot password?</a>
+        </div>
+
+        <!-- Existing Box for "Need an account? Register" link -->
+        <div class="affiliate-box">
+            <div class="affiliate-link">
+                <span class="need-account">Need an account? </span>
+                <a href="https://www.example.com/register" class="register">Register</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Link with Register Hover</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        /* Style for the login container */
+        .login-container {
+            width: 350px;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Box for the "Forgot password?" link */
+        .forgot-password-box {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            border: 1px solid #dbdbdb;
+            text-align: center;
+        }
+
+        /* Box for the "Need an account? Register" link */
+        .affiliate-box {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            border: 1px solid #dbdbdb;
+            text-align: center;
+        }
+
+        /* Style for the link text */
+        .affiliate-link, .forgot-password-link {
+            font-size: 14px;
+        }
+
+        /* Style for the "Need an account?" text */
+        .need-account {
+            color: grey; /* Grey color for "Need an account?" */
+        }
+
+        /* Style for the "Register" text */
+        .register {
+            color: blue; /* Blue color for "Register" */
+            text-decoration: none; /* Remove underline */
+        }
+
+        /* Hover effect for the "Register" text */
+        .register:hover {
+            color: green; /* Green color when hovered */
+        }
+
+        /* Style for the "Forgot password?" text */
+        .forgot-password {
+            color: grey; /* Grey color for "Forgot password?" */
+        }
+
+        /* Hover effect for the "Forgot password?" text */
+        .forgot-password:hover {
+            text-decoration: underline; /* Underline when hovered */
+            color: green; /* Green color on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Login Container -->
+    <div class="login-container">
+        <form action="/submit" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Log in</button>
+        </form>
+
+        <!-- Forgot Password Box -->
+        <div class="forgot-password-box">
+            <div class="forgot-password-link">
+                <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+        </div>
+
+        <!-- Existing Box for "Need an account? Register" link -->
+        <div class="affiliate-box">
+            <div class="affiliate-link">
+                <span class="need-account">Need an account? </span>
+                <a href="https://www.example.com/register" class="register">Register</a>
+            </div>
+        </div>
+    </div>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Affiliate Link with Register Hover</title>
+        <style>
+            /* Basic reset */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+            body {
+                font-family: Arial, sans-serif;
+                padding: 20px;
+            }
+    
+            /* Style for the login container */
+            .login-container {
+                width: 350px;
+                padding: 30px;
+                background-color: white;
+                box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+                text-align: center;
+                margin-top: 20px;
+            }
+    
+            /* Box for the "Forgot password?" link */
+            .forgot-password-box {
+                margin-top: 20px;
+                padding: 15px;
+                background-color: #f1f1f1;
+                border-radius: 5px;
+                border: 1px solid #dbdbdb;
+                text-align: center;
+            }
+    
+            /* Box for the "Need an account? Register" link */
+            .affiliate-box {
+                margin-top: 20px;
+                padding: 15px;
+                background-color: #f1f1f1;
+                border-radius: 5px;
+                border: 1px solid #dbdbdb;
+                text-align: center;
+            }
+    
+            /* Style for the link text */
+            .affiliate-link, .forgot-password-link {
+                font-size: 14px;
+            }
+    
+            /* Style for the "Need an account?" text */
+            .need-account {
+                color: grey; /* Grey color for "Need an account?" */
+            }
+    
+            /* Style for the "Register" text */
+            .register {
+                color: blue; /* Blue color for "Register" */
+                text-decoration: none; /* Remove underline */
+            }
+    
+            /* Hover effect for the "Register" text */
+            .register:hover {
+                color: green; /* Green color when hovered */
+            }
+    
+            /* Style for the "Forgot password?" text */
+            .forgot-password {
+                color: grey; /* Default grey color for "Forgot password?" */
+                transition: color 0.3s, text-decoration 0.3s; /* Smooth transition */
+            }
+    
+            /* Hover effect for the "Forgot password?" text */
+            .forgot-password:hover {
+                color: red; /* Red color on hover */
+                text-decoration: underline; /* Underline when hovered */
+            }
+        </style>
+    </head>
+    <body>
+    
+        <!-- Login Container -->
+        <div class="login-container">
+            <form action="/submit" method="post">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Log in</button>
+            </form>
+    
+            <!-- Forgot Password Box -->
+            <div class="forgot-password-box">
+                <div class="forgot-password-link">
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+            </div>
+    
+            <!-- Existing Box for "Need an account? Register" link -->
+            <div class="affiliate-box">
+                <div class="affiliate-link">
+                    <span class="need-account">Need an account? </span>
+                    <a href="https://www.example.com/register" class="register">Register</a>
+                </div>
+            </div>
+        </div>
+    
+    </body>
+    </html>
+    
