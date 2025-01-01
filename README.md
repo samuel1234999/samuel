@@ -668,3 +668,68 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Now Button</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;  /* Black background */
+            color: white;  /* White text color */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        /* Top Border */
+        .top-border {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            background-color: black;
+            border-top: 5px solid black;  /* Black top border */
+            padding: 10px 20px;
+            text-align: right;
+            z-index: 10;
+        }
+
+        /* Download Now Button */
+        .download-btn {
+            padding: 10px 20px;
+            background-color: #0095f6;  /* Blue background */
+            color: black;
+            text-decoration: none;
+            border-radius: 50px;  /* Oval shape */
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: green;  /* Green on hover */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Border with Download Button -->
+    <div class="top-border">
+        <a href="https://www.example.com/download" class="download-btn">Download Now</a>
+    </div>
+
+</body>
+</html>
