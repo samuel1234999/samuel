@@ -564,4 +564,22 @@ updated script
             background-color: green;  /* Green on hover */
             color: white;
 
+    /* Download Now Button */
+        .download-btn {
+            padding: 8px 20px;
+            background-color: #0095f6;  /* Blue background */
+            color: black;
+            text-decoration: none;
+            border-radius: 50px;  /* Oval shape */
+            font-size: 12px;
+            text-align: center;
+            margin-right: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: green;  /* Green on hover */
+            color: white;
+
+
 
