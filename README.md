@@ -1,9 +1,39 @@
-updated script
+<div style="font-size: 50px; font-weight: bold; text-align: center; text-decoration: underline;">
+  𝔽𝕦𝕤𝕚𝕠𝕟
+</div>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background: url('https://wallpapercave.com/wp/wp7160241.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container {
+            position: relative;
+            z-index: 10;
+            width: 350px;
+            padding: 30px;
+            margin: 100px auto;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+    </style>
 
 <title>Login - Instagram</title> <style> /* Basic reset */ * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
       font-family: Arial, sans-serif;
-      background-color: black;  /* Changed background to black */
+      background-color: rgb(0, 0, 0);  /* Changed background to black */
       color: white;  /* Text color set to white */
       display: flex;
       justify-content: center;
@@ -511,7 +541,7 @@ updated script
         }
 
         /* Body styling */
-        body {
+        body { 
             font-family: Arial, sans-serif;
             background-color: black;  /* Black background */
             color: white;  /* White text color */
@@ -564,22 +594,6 @@ updated script
             background-color: green;  /* Green on hover */
             color: white;
 
-    /* Download Now Button */
-        .download-btn {
-            padding: 8px 20px;
-            background-color: #0095f6;  /* Blue background */
-            color: black;
-            text-decoration: none;
-            border-radius: 50px;  /* Oval shape */
-            font-size: 12px;
-            text-align: center;
-            margin-right: 20px;
-            transition: background-color 0.3s ease;
-        }
-
-        .download-btn:hover {
-            background-color: green;  /* Green on hover */
-            color: white;
 
 
 
